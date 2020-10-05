@@ -21,12 +21,7 @@ ol {
   text-align: left;
 }
 
-ul li {
-   display: inline-block;
-   margin-right: 10px;
- }
-
-li img {
+a img {
   width: 75px;
 }
 
