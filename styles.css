@@ -9,7 +9,7 @@ body {
 
 main {
   max-width: 500px;
-  margin: 0 auto;
+  margin: 0 auto 150px;
 }
 
 h1 {
@@ -41,3 +41,64 @@ a img {
 
   border: 3px solid cyan;
 }
+
+input {
+  background: transparent;
+  color: green;
+  border: none;
+  border-bottom: 2px solid violet;
+}
+
+textarea {
+  margin-top: 5px;
+  border: 1px dashed violet;
+}
+
+button {
+  cursor: pointer;
+  width: 150px;
+  padding: 4px;
+  border-radius: 5px;
+  font-style: italic;
+  font-size: 15px;
+}
+
+button[type="submit"] {
+  color: white;
+  background: rebeccapurple;
+}
+
+button[type="reset"] {
+  color: rebeccapurple;
+  border: 1px solid rebeccapurple;
+}
+
+/*Pseudo-classes*/
+input:hover {
+  border-color: darkviolet;
+}
+
+input:focus {
+  outline: 1px solid blue;
+}
+
+input:disabled {
+  border-color: grey;
+}
+/*--------------*/
+
+/*  animation */
+.animated {
+  width: 200px;
+  transition: .3s width;
+}
+
+.animated:focus, .animated:hover {
+  width: 300px;
+}
+/*------------*/
+
+
+
+
+
